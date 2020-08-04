@@ -1,23 +1,58 @@
 {
     "tasks": [
       { "id": 1, 
-        "title": "Crear 1 json para el proyecto",
+        "title": "Iniciar Proyecto",
         "person": "alfre",
         "state": "to-do",
         "created": 1596576981,
         "deadline": 1597095381
       },
       { "id": 2, 
-        "title": "Crear 2 json para el proyecto",
+        "title": "Definir la estructura",
         "person": "alfre",
         "state": "in-progress",
         "created": 1596576981,
         "deadline": 1597095381
       },
       { "id": 3, 
-        "title": "Crear 3 json para el proyecto",
+        "title": "Crear las clases",
         "person": "alfre",
         "state": "done",
+        "created": 1596576981,
+        "deadline": 1597095381
+      },
+      { "id": 4, 
+        "title": "Crear controladores",
+        "person": "alfre",
+        "state": "in-progress",
+        "created": 1596576981,
+        "deadline": 1597095381
+      },
+      { "id": 5, 
+        "title": "Crear las funciones",
+        "person": "alfre",
+        "state": "in-progress",
+        "created": 1596576981,
+        "deadline": 1597095381
+      },
+      { "id": 6, 
+        "title": "Definir la plantillas layout",
+        "person": "alfre",
+        "state": "to-do",
+        "created": 1596576981,
+        "deadline": 1597095381
+      },
+      { "id": 7, 
+        "title": "Integrar scripts JS",
+        "person": "alfre",
+        "state": "done",
+        "created": 1596576981,
+        "deadline": 1597095381
+      },
+      { "id": 8, 
+        "title": "Conectar a la base de datos",
+        "person": "alfre",
+        "state": "to-do",
         "created": 1596576981,
         "deadline": 1597095381
       }
