@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Scrum</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -15,24 +16,24 @@
     <main>
         <div class="main-container">
             <h1>SimpleScrum</h1>
-            <div class="container" id="todoTasks">
+            <div class="container" >
                 <h2>To Do</h2>
-                <div class="task-container">
+                <div class="task-container" id="todoTasks">
                 </div>
             </div>
-            <div class="container" id="inProgressTasks">
+            <div class="container" >
                 <h2>In Progress</h2>
-                <div class="task-container">
+                <div class="task-container" id="inProgressTasks">
                 </div>
             </div>
-            <div class="container" id="doneTasks">
+            <div class="container" >
                 <h2>Done</h2>
-                <div class="task-container">
+                <div class="task-container" id="doneTasks">
                 </div>
             </div>
         </div>
     </main>
-    <aside>
+    <aside class="" id="formElement">
         <div class="aside-container">
             <h2>Nueva Tarea</h2>
             <div class="form-container">
@@ -61,7 +62,7 @@
                     </div>
                     <div class="action-container">
                         <button type="submit">Guardar</button>
-                        <button type="reset">Cancelar</button>
+                        <button type="reset" id="cancelForm">Cancelar</button>
                     </div>
                 </form>
             </div>
@@ -73,6 +74,7 @@
     <!-- moment -->
     <script src="https://momentjs.com/downloads/moment.js"></script>
 
+    <script src="scripts/helpers.js" ></script>
     <script src="scripts/dates.js" ></script>
     <script src="scripts/petitions.js" ></script>
 </body>

@@ -12,10 +12,10 @@ function fillTasks (data){
         taskTitle.innerText = d.title
 
         let taskPerson = document.createElement('p')
-        taskPerson.innerHTML = `Responsable: <span>${d.person}</span>`
+        taskPerson.innerHTML = `<span>Responsable:</span> ${d.person}`
 
         let taskDeadline = document.createElement('p')
-        taskDeadline.innerHTML = `Plazo: <span>${unixToDate(d.deadline)}</span>`
+        taskDeadline.innerHTML = `<span>Plazo:</span> ${unixToDate(d.deadline)}`
 
         newTask.appendChild(taskTitle)
         newTask.appendChild(taskPerson)
